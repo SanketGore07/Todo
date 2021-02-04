@@ -8,8 +8,8 @@ import AddToDos from './components/pages/addTodos';
 export default function App() {
 
   const[todos, settodos]=useState([
-    {name:'buy a burger', key:'1'},
-    {name:'Study hard', key:'2'}
+    {name:'practice german', key:'1'},
+    {name:' audiobook', key:'2'}
   ])
 
   const submitHandler =(text)=>{
